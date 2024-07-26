@@ -31,11 +31,9 @@ byte pacman_boca_cerrada[8] = {
 int delayTime = 500;
 
 void setup() {
-  Serial.begin(9600);
   PacmanMatrix.shutdown(0, false);
   PacmanMatrix.setIntensity(0, 15);
   PacmanMatrix.clearDisplay(0);
-  Serial.println("Uso de la matriz LED");
 }
 
 void loop() {
