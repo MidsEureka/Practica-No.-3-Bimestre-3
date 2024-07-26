@@ -1,10 +1,8 @@
 
 #include <LedControl.h> 
-// Definiciones de pines para la matriz LED
 #define din_matrix 3   
 #define cs_matrix  2   
 #define clk_matrix 4  
-// Objeto para controlar la matriz LED
 LedControl PacmanMatrix = LedControl(din_matrix, clk_matrix, cs_matrix, 1);
 
 
